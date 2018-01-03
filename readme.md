@@ -1,5 +1,5 @@
-#HOW TO START
-access localhost:8000
+# HOW TO START
+access localhost:8000  
 
 ```:command
 $cp docke-compose.sample.yml docker-compose.yml
@@ -7,9 +7,10 @@ $docker-compose up -d
 ```
 
 
-#config
-- sqlfile
+# default setting
+- sqlfile  
 docker_config/sql
 
-- host
+- host  
 public_html
+
